@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
           stripe={process.env.NEXT_PUBLIC_STRIPE_API_KEY}
           billingAddressCollection={false}
           successUrl='https://stripe.com'
-          cancelUrl='https://twitter.com/dayhaysoos'
+          cancelUrl='https://twitter.com/TheRealBatJan'
           allowedCountries={['US']}
           currency='USD'>
           <Component {...pageProps} />
